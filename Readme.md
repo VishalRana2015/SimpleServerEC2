@@ -1,0 +1,1 @@
+Creating a simple server to launch on EC2 Instance.

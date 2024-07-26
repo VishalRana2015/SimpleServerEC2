@@ -27,3 +27,8 @@ To generate files you can also use <code>mvn clean package </code> command.
 One thing <java.version>8<java.version> 
 
 Another thing, java version in environment path variable should be the same as the one with which you have build your project.
+
+For Unix-like systems
+nohup java -jar yourfile.jar > output.log 2>&1 &
+
+Will log console output to the output.log file and run the process in background.
